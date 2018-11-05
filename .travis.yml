@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: HGhVua9WUcLWuJsG5CWkRJR/T3uYBZSmIrCpOw6RJuYllpFxoaLTwr+4aVEHGieTuf7lx9tnULSIjU0TmhQBLktPh2wZpRL1MEDEhdk1D5QSQ1lFQmbfR8b3y10yJt+L3IizqxWFCQy0tdXpRewPMHapoWP71n80SbE6izQCSiJSBkdPNyrBqgK7x0VCTqkTR/gNX0GHZccINyYZlnQKkG/mYX6A30HbwoVd4ZFVOm7PPmrZYWaBU6xuQVn9Wx8r1o/jbtlOi7TcBVx1uIS5mEsVtCX/aPutzJLGn7j4WIcIU4iOmhnchaGQQi7qM9x8jCJBjahXRyLESLmj5OS/GAhRE1F24CDOTfOW88W75z5faWZ8yNxEMF2zMSMR9T339RYqD+t6tXduHqmvHCj1RIQxqBuj/TS5DDN/7n+zc7xyYdKsERt6iHZZQ1N8r81VXqirzHuKQLoSQMmMw5vPMFGHiEZfhxhiteGHrJwixEh7WLC2B89haaCF6aM0UBDgVu5/PeQo+vnmlGuHbk7jGtGggK3ltDrv2PDB9FcVvQkthIJJQBcReqpnRiicF5HNFJQ/VrUb6jnjJ8RIIhkYtpFQhbzmVHWL0YIEJT25wRYFdD8WyiadutPBZe7P4aflg7BLP0/4MnmsEGGc0+bu/qD6Rz/juXIFF1BFayrz+to=
+  app: murmuring-atoll-14875
+  on:
+    repo: LorenzoBorje/node-shopping-list-integration-tests
